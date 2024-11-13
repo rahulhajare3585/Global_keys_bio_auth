@@ -13,7 +13,7 @@ class ButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) => ElevatedButton(
         style: ElevatedButton.styleFrom(
-          minimumSize: Size.fromHeight(40),
+          minimumSize: const Size.fromHeight(40),
         ),
         child: FittedBox(
           child: Text(
